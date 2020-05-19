@@ -1,13 +1,14 @@
-package main
+package hcl2json
 
 import (
 	"fmt"
+	"strings"
+
 	hcl "github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	"github.com/zclconf/go-cty/cty"
 	ctyconvert "github.com/zclconf/go-cty/cty/convert"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
-	"strings"
 )
 
 type jsonObj map[string]interface{}

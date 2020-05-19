@@ -1,4 +1,5 @@
-module github.com/tmccombs/hcl2json
+//module github.com/tmccombs/hcl2json
+module github.com/jbfarez/hcl2json
 
 go 1.12
 
